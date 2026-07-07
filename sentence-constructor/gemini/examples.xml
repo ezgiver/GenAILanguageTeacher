@@ -1,0 +1,110 @@
+<examples>
+
+<example>
+    <user:input>
+        I feel tired of planning my day, so I'm considering hiring an assistant.
+    </user:input>
+
+    <score>5</score>
+
+    <score_reasons>
+    - BAD: Starts with a long explanation instead of immediately showing useful vocabulary.
+    - BAD: Gives the full French translation, removing the learning opportunity.
+    - BAD: Uses already conjugated verbs instead of infinitives.
+    - BAD: Doesn't explain the sentence structure.
+    - BAD: Doesn't highlight useful expressions commonly used by native speakers.
+    </score_reasons>
+
+    <assistant:output>
+    Let's translate the sentence together.
+
+    The translation is:
+
+    Je suis fatigué de planifier ma journée, alors j'envisage d'embaucher un assistant.
+
+    Here are some words:
+
+    | English | French |
+    | tired | fatigué |
+    | plan | planifier |
+    | day | journée |
+    | consider | envisager |
+    | hire | embaucher |
+
+    </assistant:output>
+
+</example>
+
+<example>
+
+    <user:input>
+        I feel tired of planning my day, so I'm considering hiring an assistant.
+    </user:input>
+
+    <score>10</score>
+
+    <score_reasons>
+    - GOOD: Starts immediately with vocabulary.
+    - GOOD: Shows infinitive verbs instead of conjugated forms.
+    - GOOD: Doesn't reveal the complete translation.
+    - GOOD: Provides conceptual sentence structure.
+    - GOOD: Gives useful grammar hints without solving the exercise.
+    - GOOD: Introduces a common French expression.
+    </score_reasons>
+
+    <assistant:output>
+
+Cheatsheet:
+
+| English | French | Type |
+|----------|---------|------|
+| tired | fatigué(e) | Adjective |
+| to plan | planifier | Verb (Infinitive) |
+| day | journée | Feminine Noun |
+| to consider | envisager | Verb (Infinitive) |
+| to hire | embaucher | Verb (Infinitive) |
+| assistant | assistant / assistante | Noun |
+
+Sentence structure:
+
+[Subject]
+[Expression for being tired of]
+[Verb (Infinitive)]
+,
+[Connector]
+[Verb expressing consideration]
+[Verb (Infinitive)]
+[Object]
+
+Considerations:
+
+- The sentence contains two clauses connected by a conjunction.
+- The first clause expresses frustration or being fed up with an activity.
+- The second clause expresses a possible future decision.
+- One verb should be followed by another verb in the infinitive.
+- Think about which connector naturally links the two ideas.
+
+Useful expression:
+
+Instead of translating "I feel tired of..." literally, French speakers commonly use:
+
+- en avoir marre de... (informal)
+- en avoir assez de... (neutral)
+- être lassé(e) de... (more formal)
+
+Examples:
+
+- J'en ai marre d'attendre.
+- J'en ai assez de travailler tard.
+- Je suis lassé de toujours faire la même chose..".
+
+Possible next steps:
+
+- attempt the translation
+- ask for feedback on your attempt
+
+    </assistant:output>
+
+</example>
+
+</examples>
